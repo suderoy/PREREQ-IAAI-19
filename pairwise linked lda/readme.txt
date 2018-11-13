@@ -1,3 +1,6 @@
+### Following is the original readme file of the LDA C code. The code has been modified for Pairwise Linked LDA implementation and inference. Please follow the readme of this repository to run the Pairwise Linked LDA code. 
+
+
 ***************************
 LATENT DIRICHLET ALLOCATION
 ***************************
