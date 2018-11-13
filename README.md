@@ -1,8 +1,10 @@
-# This is code for the paper "Inferring Concept Prerequisite Relations from Online Educational Resources", Sudeshna Roy, Meghana Madhyastha, Sheril Lawrence, Vaibhav Rajan. IAAI-19 (with AAAI' 19). If you use this code refer this paper.
+## This is code for the paper "Inferring Concept Prerequisite Relations from Online Educational Resources", Sudeshna Roy, Meghana Madhyastha, Sheril Lawrence, Vaibhav Rajan. IAAI-19 (with AAAI' 19). If you use this code refer this paper.
 
 ### First run the pairwise Link LDA to learn the /beta matrix. This code is modfied from original LDA code.
 
 $ cd "pairwise link lda"
+
+$ make
 
 $ ./lda est 0.01 100 settings.txt ../datasets/NPTEL MOOC Dataset/bow_feature.txt ../datasets/NPTEL MOOC Dataset/prerequisites.link random ../datasets/NPTEL MOOC Dataset/k100_a0.01
 
