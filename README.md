@@ -6,7 +6,7 @@ $ cd "pairwise link lda"
 
 $ make
 
-$ ./lda est 0.01 100 settings.txt ../datasets/NPTEL MOOC Dataset/bow_feature.txt ../datasets/NPTEL MOOC Dataset/prerequisites.link random ../datasets/NPTEL MOOC Dataset/k100_a0.01
+$ ./lda est 0.01 100 settings.txt "../datasets/NPTEL MOOC Dataset/bow_feature.txt" "../datasets/NPTEL MOOC Dataset/prerequisites.link" random "../datasets/NPTEL MOOC Dataset/k100_a0.01"
 
 $ cd ..
 
