@@ -1,6 +1,8 @@
 #### This is the source code for the paper [**"Inferring Concept Prerequisite Relations from Online Educational Resources"**](https://arxiv.org/abs/1811.12640), Sudeshna Roy, Meghana Madhyastha, Sheril Lawrence, Vaibhav Rajan. 31st AAAI Conference on Innovative Applications of Artificial Intelligence (IAAI-19). If you use any part of this code cite this paper.
 
-#### First run the pairwise Link LDA to learn the /beta matrix. This code is modfied from original LDA code.
+#### First run the pairwise Link LDA 
+
+to learn the /beta matrix (concept vectors). This code is modfied from original LDA code.
 
     cd "pairwise link lda"
     make
@@ -9,7 +11,9 @@
 
 
 
-##### Train the siamese network. It does a 10 fold cross-validation on the data
+#### Train the siamese network
+
+It does a 10 fold cross-validation on the data.
 
     cd "siamese network"
     python siamese_fc_relu.py  "NPTEL MOOC Dataset" "../datasets/NPTEL MOOC Dataset/k100_a0.01 100"
@@ -18,7 +22,7 @@
 *You may change all the above occurence of "NPTEL MOOC Dataset" to "University Course Dataset" to run on University Course Dataset.*
 
 
-##### to run on your own dataset
+#### To run on your own dataset:
 
 1. Have the concept vocabulary in a text file as "vocab.txt"
 
