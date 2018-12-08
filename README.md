@@ -1,4 +1,4 @@
-#### This is the source code for the paper **"Inferring Concept Prerequisite Relations from Online Educational Resources"**, Sudeshna Roy, Meghana Madhyastha, Sheril Lawrence, Vaibhav Rajan. 31st AAAI Conference on Innovative Applications of Artificial Intelligence (IAAI-19). If you use any part of this code cite [this paper](https://arxiv.org/abs/1811.12640).
+#### This is the source code for the paper [**"Inferring Concept Prerequisite Relations from Online Educational Resources"**](https://arxiv.org/abs/1811.12640), Sudeshna Roy, Meghana Madhyastha, Sheril Lawrence, Vaibhav Rajan. 31st AAAI Conference on Innovative Applications of Artificial Intelligence (IAAI-19). If you use any part of this code cite this paper.
 
 #### First run the pairwise Link LDA to learn the /beta matrix. This code is modfied from original LDA code.
 
