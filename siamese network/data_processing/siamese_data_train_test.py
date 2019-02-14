@@ -27,7 +27,7 @@ class WORD(object):
             	neg.append((v,u))
 	self.x_train = self.x_train + neg
 	self.y_train = self.y_train + [0]*len(neg)
-    return 
+        return 
 
     def get_gt(self, path, all_concepts):
         preqs = []
