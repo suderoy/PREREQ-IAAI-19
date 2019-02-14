@@ -136,7 +136,7 @@ class WORD(object):
             print "Unknown dataset. Mention path to beta file and vocab pickle. Exiting ..."
             exit(0)
         self.data_path = datapath +str(pn)+'/final.beta'
-
+	# return XX missing ,but i dont know which 3 variables, i tried but failed
     
     def get_next_batch(self, batch, phase='train', one_shot=False):
         """
