@@ -227,7 +227,7 @@ for n in range(n_runs):
             roc_auc = auc(fpr, tpr)
             aucs.append(roc_auc)
 
-                test_data = sorted(zip(batch_x1, batch_x2, batch_y, pred_prob, batch_cs, batch_ct), key=lambda x:x[3], reverse=True)
+            test_data = sorted(zip(batch_x1, batch_x2, batch_y, pred_prob, batch_cs, batch_ct), key=lambda x:x[3], reverse=True)
             print 'Len test data', len(test_data)
             print [(x[2], x[3], x[4], x[5]) for x in test_data[:5]]
             pat50 = sum([x[2] for x in test_data[:50]])/float(50)
