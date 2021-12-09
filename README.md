@@ -37,9 +37,12 @@ It does a 10 fold cross-validation on the data.
 - *cs_preqs.csv*: These are concept prerequisite pairs. Each line "\<Concept_A\>,\<Concept_B\>" represents the prerequisite relationship.
 
 
-3. Mention the paths of "cs_preqs.csv" and "vocab.txt" in "data preprocessing/create_bow_features.py" and paths of "cs_course.csv" and "concept_vocab.pkl" in "data preprocessing/create_bow_features.py". Then run
+3. Mention the paths of "cs_preqs.csv" and "vocab.txt" in "data preprocessing/preq_preparation.py" and  run which writes the 'concept_vocab.pkl' in  the same directory.
 
        python preq_preparation.py
+       
+   Add the paths of "cs_course.csv" and "concept_vocab.pkl" in "data preprocessing/create_bow_features.py". Then run
+
        python create_bow_features.py
 
 4. Run the pairwise Link LDA with correct paths as explained earlier. 
